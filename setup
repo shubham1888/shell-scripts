@@ -1,0 +1,55 @@
+This is my setup file for setup in linux
+
+
+Shebang Code 
+#!/bin/bash
+#!/bin/env nodejs
+
+
+Packages to install
+
+Mandatory Packages
+apt install tree git htop neofetch
+
+Packages for development
+apt install make gcc g++ build-essential qemu-system
+
+Gnome Packages
+apt install gnome-tweaks
+
+Virtual managers
+apt install virt-manager
+
+Text editors
+apt install vim nvim
+
+Programming language compilers / interpreter
+apt install nodejs npm gcc g++ python3
+
+
+Windows  10 product key
+XNPYM-V4G7T-MHT6V-2YRRC-27JV2
+
+
+
+Secure boot password for ubuntu: Kali@1888
+
+
+Commands
+curl ipinfo.io
+
+
+Configurations
+
+/home/shubham/.ssh/config
+mkdir .ssh
+cd .ssh
+touch config
+nano config
+Host [server_name]
+      Hostname [ip_address]
+      Port 22
+      User [username]
+
+/home/shubham/...
+
